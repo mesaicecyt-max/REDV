@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.5 Capa 2: Enlace de Datos — REDES V</title>
+<meta name="description" content="1.5 Capa 2: Enlace de Datos — Curso Fundamentos de Redes de Computadoras, REDES V.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar" id="sidebar" aria-label="Navegación principal">
+<div class="sidebar-head"><div class="brand"><span class="brand-dot"></span> REDES V</div><div class="brand-sub">Fundamentos de Redes</div></div>
+<div class="nav-groups">
+<div class="nav-group"><div class="nav-group-title">UNIDAD I</div><ul>
+<li><a href="objetivos-aprendizaje-1.html">1.1 Objetivos de Aprendizaje I</a></li>
+<li><a href="evolucion-historica.html">1.2 Evolución Histórica de las Redes</a></li>
+<li><a href="capa-1-fisica.html">1.3 Capa 1: Física</a></li>
+<li><a href="actividad-capa-1.html">1.4 Actividad — Capa 1</a></li>
+<li><a href="capa-2-enlace.html" class="active">1.5 Capa 2: Enlace de Datos</a></li>
+<li><a href="actividad-capa-2.html">1.6 Actividad — Capa 2</a></li>
+<li><a href="capa-3-red.html">1.7 Capa 3: Red</a></li>
+<li><a href="actividad-capa-3.html">1.8 Actividad — Capa 3</a></li>
+<li><a href="capa-4-transporte.html">1.9 Capa 4: Transporte</a></li>
+<li><a href="actividad-capa-4.html">1.10 Actividad — Capa 4</a></li>
+<li><a href="capas-5-7.html">1.11 Capas 5–7: Sesión, Presentación y Aplicación</a></li>
+<li><a href="actividad-capas-567.html">1.12 Actividad — Capas 5/6/7</a></li>
+<li><a href="examen-capa-1.html">1.13 Examen — Capa 1 Física</a></li>
+<li><a href="examen-capa-2.html">1.14 Examen — Capa 2 Enlace</a></li>
+<li><a href="examen-capa-3.html">1.15 Examen — Capa 3 Red</a></li>
+</ul></div>
+<div class="nav-group"><div class="nav-group-title">UNIDAD II</div><ul>
+<li><a href="punto-a-punto.html">2.1 Punto a Punto</a></li>
+<li><a href="topologia-bus.html">2.2 Topología Bus</a></li>
+<li><a href="topologia-anillo.html">2.3 Topología Anillo</a></li>
+<li><a href="topologia-estrella.html">2.4 Topología Estrella</a></li>
+<li><a href="topologia-malla.html">2.5 Topología Malla</a></li>
+<li><a href="topologia-hibrida.html">2.6 Topología Híbrida</a></li>
+<li><a href="fisica-vs-logica.html">2.7 Física vs Lógica</a></li>
+<li><a href="evaluacion-topologias.html">2.8 Evaluación — Topologías</a></li>
+<li><a href="medios-transmision.html">2.9 Medios de Transmisión</a></li>
+<li><a href="tendencias-actuales.html">2.10 Tendencias Actuales</a></li>
+<li><a href="componentes-lan.html">2.11 Componentes de Red LAN</a></li>
+</ul></div>
+<div class="nav-group"><div class="nav-group-title">UNIDAD III</div><ul>
+<li><a href="cableado-rj45.html">3.1 Cableado Ethernet RJ45</a></li>
+<li><a href="redes-virtuales.html">3.2 Redes Virtuales (VLAN)</a></li>
+<li><a href="presupuesto-lan.html">3.3 Presupuesto Red LAN</a></li>
+<li><a href="wifi6-vs-wifi5.html">3.4 Wi-Fi 6 vs Wi-Fi 5</a></li>
+</ul></div>
+<div class="nav-group"><div class="nav-group-title">PROGRAMACIÓN LÓGICA</div><ul>
+<li><a href="estructura-logica.html">4.1 Estructura Lógica</a></li>
+<li><a href="ejercicios-secuencia.html">4.2 Ejercicios Secuencia Lógica</a></li>
+<li><a href="diagramas-flujo.html">4.3 Diagramas de Flujo</a></li>
+</ul></div>
+</div>
+<div class="sidebar-foot"><a href="index.html" class="foot-link">⌂ Inicio</a><a href="mapa.html" class="foot-link">🗺 Mapa del sitio</a><a href="REDES_V_Libro_Curso_Redes_IV.pdf" class="foot-link">📖 Libro PDF</a><div class="foot-meta">Curso REDES IV → REDES V<br>© REDES V · 2026</div></div>
+</nav>
+<main class="main">
+<header class="topbar">
+<button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+<div class="topbar-title">1.5 Capa 2: Enlace de Datos</div>
+<div class="topbar-actions">
+<div class="search-wrap"><input id="searchBox" type="search" placeholder="Buscar en REDES V… ( / )" autocomplete="off"><div id="searchResults" class="search-results hidden"></div></div>
+<a class="btn btn-ghost" href="index.html">Inicio</a>
+<a class="btn btn-primary" href="REDES_V_Libro_Curso_Redes_IV.pdf">PDF</a>
+</div>
+</header>
+<div class="content">
+<nav class="breadcrumb"><a href="index.html">Inicio</a> <span>›</span> <span>UNIDAD I</span> <span>›</span> <strong>1.5 Capa 2: Enlace de Datos</strong></nav>
+<article class="article">
+<div class="article-head">
+<div class="kicker">UNIDAD I · PÁGINA DEL SITIO ORIGINAL</div>
+<h1>1.5 Capa 2: Enlace de Datos</h1>
+</div>
+<div class="article-body">
+<h2 class="article-h2">🧠 Capa 2: Capa de Enlace de Datos (Data Link Layer)</h2>
+<p>La Capa de Enlace de Datos es donde la red empieza a tomar decisiones inteligentes. Transforma el flujo de bits de la Capa Física en una comunicación confiable entre dispositivos directamente conectados. Aquí es donde los datos se organizan, se verifican y se dirigen correctamente.</p>
+<p>es donde la red empieza a tomar decisiones inteligentes. Transforma el flujo de bits de la Capa Física en una comunicación confiable entre dispositivos directamente conectados. Aquí es donde los datos se organizan, se verifican y se dirigen correctamente.</p>
+<h3 class="article-h3">📬 Imagina un sistema de correos interno en un edificio: esta capa empaqueta, etiqueta, verifica y distribuye cada mensaje con precisión.</h3>
+<p>Imagina un sistema de correos interno en un edificio: esta capa empaqueta, etiqueta, verifica y distribuye cada mensaje con precisión.</p>
+<h3 class="article-h3">🔍 1. Concepto Fundamental</h3>
+<p>La Capa 2 actúa como puente entre el hardware físico y la lógica de red. Sus funciones clave incluyen:</p>
+<ul class="article-list">
+<li>✅ Detección y corrección de errores: Verifica si los datos llegaron intactos.</li>
+<li>📊 Control de flujo: Evita que un transmisor rápido sature a un receptor lento.</li>
+<li>🔄 Control de acceso al medio (MAC): Coordina el uso compartido del canal de comunicación.</li>
+<li>🆔 Direccionamiento físico: Usa direcciones MAC únicas para identificar dispositivos.</li>
+</ul>
+<h3 class="article-h3">📦 2. Temas Clave</h3>
+<h3 class="article-h3 accent">A. La Trama (Framing)</h3>
+<h3 class="article-h3">La unidad de datos en esta capa es la trama , compuesta por:</h3>
+<ul class="article-list">
+<li>Cabecera: Incluye direcciones MAC y control.</li>
+<li>Datos (Payload): El paquete de la Capa 3.</li>
+<li>Trailer: Contiene el FCS (Frame Check Sequence) para detectar errores.</li>
+</ul>
+<h3 class="article-h3 accent">B. Direccionamiento MAC</h3>
+<ul class="article-list">
+<li>Dirección física de 48 bits, única para cada dispositivo.</li>
+<li>Formato hexadecimal: 00:1A:2B:3C:4D:5E .</li>
+<li>Utilizada por switches para enviar tramas al destino correcto dentro de una LAN.</li>
+</ul>
+<h3 class="article-h3 accent">C. Control de Acceso al Medio</h3>
+<h3 class="article-h3">Protocolos clave:</h3>
+<ul class="article-list">
+<li>CSMA/CD (Ethernet cableado): Escucha antes de transmitir. Detecta colisiones y reintenta.</li>
+</ul>
+<h3 class="article-h3">CSMA/CD (Ethernet cableado):</h3>
+<ul class="article-list">
+<li>Escucha antes de transmitir.</li>
+<li>Detecta colisiones y reintenta.</li>
+<li>CSMA/CA (Wi-Fi): Evita colisiones mediante señales RTS/CTS. Similar a levantar la mano antes de hablar.</li>
+</ul>
+<h3 class="article-h3">CSMA/CA (Wi-Fi):</h3>
+<ul class="article-list">
+<li>Evita colisiones mediante señales RTS/CTS.</li>
+<li>Similar a levantar la mano antes de hablar.</li>
+</ul>
+<h3 class="article-h3 accent">D. Dispositivos de la Capa 2</h3>
+<ul class="article-list">
+<li>Switch: Aprende direcciones MAC y envía tramas solo al puerto correcto. Mejora el rendimiento al evitar colisiones.</li>
+</ul>
+<p>Aprende direcciones MAC y envía tramas solo al puerto correcto. Mejora el rendimiento al evitar colisiones.</p>
+<ul class="article-list">
+<li>Bridge (Puente): Conecta dos segmentos LAN y filtra tráfico por MAC.</li>
+</ul>
+<h3 class="article-h3 accent">E. Tecnologías Específicas</h3>
+<ul class="article-list">
+<li>Ethernet (IEEE 802.3): Estándar para redes cableadas. Define tramas, velocidades y CSMA/CD.</li>
+</ul>
+<h3 class="article-h3">Ethernet (IEEE 802.3):</h3>
+<ul class="article-list">
+<li>Estándar para redes cableadas.</li>
+<li>Define tramas, velocidades y CSMA/CD.</li>
+<li>Wi-Fi (IEEE 802.11): Estándar para redes inalámbricas. Define tramas, frecuencias y CSMA/CA.</li>
+</ul>
+<h3 class="article-h3">Wi-Fi (IEEE 802.11):</h3>
+<ul class="article-list">
+<li>Estándar para redes inalámbricas.</li>
+<li>Define tramas, frecuencias y CSMA/CA.</li>
+</ul>
+<h3 class="article-h3">🖼️ 3. Representación en Diagramas</h3>
+<ul class="article-list">
+<li>Switch como símbolo central: PCs y servidores conectados a un switch (ícono de 4 flechas).</li>
+</ul>
+<h3 class="article-h3">Switch como símbolo central:</h3>
+<ul class="article-list">
+<li>PCs y servidores conectados a un switch (ícono de 4 flechas).</li>
+<li>VLANs: Etiquetas como “VLAN 10”, colores o líneas punteadas para agrupar dispositivos.</li>
+</ul>
+<h3 class="article-h3">VLANs:</h3>
+<ul class="article-list">
+<li>Etiquetas como “VLAN 10”, colores o líneas punteadas para agrupar dispositivos.</li>
+<li>Direcciones MAC: Anotadas junto a dispositivos en diagramas detallados.</li>
+</ul>
+<h3 class="article-h3">Direcciones MAC:</h3>
+<ul class="article-list">
+<li>Anotadas junto a dispositivos en diagramas detallados.</li>
+<li>Topología en estrella: La más común hoy, con el switch en el centro.</li>
+</ul>
+<h3 class="article-h3">Topología en estrella:</h3>
+<ul class="article-list">
+<li>La más común hoy, con el switch en el centro.</li>
+</ul>
+<blockquote>💡 Un diagrama típico muestra varios dispositivos conectados a un switch, que gestiona el tráfico según las direcciones MAC.</blockquote>
+<p>Un diagrama típico muestra varios dispositivos conectados a un switch, que gestiona el tráfico según las direcciones MAC.</p>
+<h3 class="article-h3">✅ Conclusión</h3>
+<p>La Capa de Enlace de Datos convierte un medio físico en una red inteligente y confiable. Gracias a sus mecanismos de control, direccionamiento y corrección, permite que los dispositivos se comuniquen de forma ordenada, eficiente y segura dentro de una red local.</p>
+</div>
+<div class='source-box'>Fuente: <a href='https://sites.google.com/view/curso-redes-iv/unidad-i/modelo-ositcp-ip/capa-2-enlace-de-datos'>https://sites.google.com/view/curso-redes-iv/unidad-i/modelo-ositcp-ip/capa-2-enlace-de-datos</a></div>
+<div class="pager">
+<a class="pager-btn prev" href="actividad-capa-1.html"><span>← Anterior</span><strong>1.4 Actividad — Capa 1</strong></a>
+<a class="pager-btn next" href="actividad-capa-2.html"><span>Siguiente →</span><strong>1.6 Actividad — Capa 2</strong></a>
+</div>
+</article>
+<footer class="footer">Material académico — Curso REDES V · <a href="https://sites.google.com/view/curso-redes-iv/inicio">Sitio original</a> · Libro base ordenado y paginado con índice</footer>
+</div>
+</main>
+</div>
+<div class="overlay hidden" id="overlay"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
